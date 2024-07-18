@@ -13,3 +13,10 @@
 .iki_1 {
     background-image: linear-gradient(to right, rgba(253, 126, 20, 0.80), rgba(248, 107, 38, 0.80), rgba(241, 88, 50, 0.80), rgba(232, 70, 61, 0.80), rgba(220, 53, 69, 0.80));
 }
+
+
+
+.himiya {
+    background-image: url("../img/first-list-icon.png");
+    size: small;
+}
