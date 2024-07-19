@@ -7,6 +7,15 @@
   <title>Document</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link href="css/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
+  <link href="css/splide.min.css" rel="stylesheet">
+  <link href="css/fancybox.css" rel="stylesheet">
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/splide.min.js"></script>
+  <script src="js/fancybox.umd.js"></script>
 </head>
 
 <body>
@@ -69,6 +78,49 @@
     <div class="py-2">
       <button type="button" class="btn btn-outline-light">DISCOVER MORE</button>
     </div>
+    <div class="row justify-content-center g-4">
+      <div class="col-8 col-sm-4">
+        <div class="forest p-4 rounded-3 shadow-sm forest_c">
+          <div class="mb-3">
+            <img src="img/first-service-icon.png" alt="" class="img-fluid rounded-3">
+          </div>
+          <div class="h6 fw-bold mb-2">MOBILE READY</div>
+          <div class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolores magnam officia vitae earum facilis
+            maxime dolor veniam qui impedit.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-sm-4">
+        <div class="forest p-4 rounded-3 shadow-sm">
+          <div class="mb-3">
+            <img src="img/second-service-icon.png" alt="" class="img-fluid rounded-3">
+          </div>
+          <div class="h6 fw-bold mb-2">HTML CSS</div>
+          <div class="text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat assumenda sapiente tempore sunt suscipit
+            maxime a voluptate impedit sequi excepturi!
+          </div>
+        </div>
+      </div>
+
+      <div class="col-8 col-sm-4">
+        <div class="forest rounded-3 shadow-sm">
+          <div class="mb-3">
+            <img src="img/third-service-icon.png" alt="" class="img-fluid rounded-3">
+          </div>
+          <div class="h6 fw-bold mb-2">RESPONSIVE DESIGN</div>
+          <div class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda labore molestiae quidem doloribus
+            earum quo ex explicabo cupiditate cum aliquam laborum minima deleniti laboriosam ad, ipsum modi neque.
+            Commodi nisi quas at voluptatibus veniam corrupti error veritatis.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
   </div>
   <div class="container-fluid text-center py-5 py-sm-2">
     <div class="h2">
@@ -78,24 +130,66 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium sed obcaecati, blanditiis maxime dolorem
       pariatur, debitis libero, consequatur eos est quia fugiat! Dolorem modi voluptas maiores illo libero aliquam a!
     </div>
-    <div class="col-auto offset-md-3">
-        <div class="row himiya">
-          UNIQUE IDEAS
+    <div class="py-5">
+      <div class="container-lg py-5">
+        <div class="splide mb-5" role="group" aria-label="Splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <a href="img/chemistry.png" data-fancybox="gallery" data-caption="#1">
+                  <img src="img/chemistry.png" alt="" class="img-fluid rounded" data-aos="fade-up" data-aos-delay="400">
+                </a>
+              </li>
+              <li class="splide__slide">
+                <a href="img/settings.png" data-fancybox="gallery" data-caption="#2">
+                  <img src="img/settings.png" alt="" class="img-fluid rounded" data-aos="fade-up" data-aos-delay="500">
+                </a>
+              </li>
+              <li class="splide__slide">
+                <a href="img/translation.png" data-fancybox="gallery" data-caption="#3">
+                  <img src="img/translation.png" alt="" class="img-fluid rounded" data-aos="fade-up"
+                    data-aos-delay="600">
+                </a>
+              </li>
+              <li class="splide__slide">
+                <a href="img/meet.png" data-fancybox="gallery" data-caption="#4">
+                  <img src="img/meet.png" alt="" class="img-fluid rounded" data-aos="fade-up" data-aos-delay="700">
+                </a>
+              </li>
+              <li class="splide__slide">
+                <a href="img/photos.png" data-fancybox="gallery" data-caption="#5">
+                  <img src="img/photos.png" alt="" class="img-fluid rounded" data-aos="fade-up" data-aos-delay="800">
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col">
-          THEME EDIT
-        </div>
-        <div class="row">
-          TRANSLATION
-        </div>
-        <div class="col">
-          EVENT MEETING
-        </div>
-        <div class="row">
-          HD PHOTOS
-        </div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            new Splide(".splide", {
+              perMove: 1,
+              pagination: !1,
+              perPage: 4,
+              gap: "1.5rem",
+              breakpoints: {
+                767: { perPage: 3, },
+                575: { perPage: 2, }
+              }
+            }).mount()
+          });
+        </script>
+      </div>
     </div>
   </div>
+  </div>
+  <script>
+    AOS.init({
+      once: true,
+    });
+    Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });
+  </script>
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
