@@ -21,6 +21,6 @@
     background-size: cover;
 }
 
-.forest_c {
-    background-image: linear-gradient(to right,  rgba(255,0,0));
+.bg-color {
+    background-color: rgb(35, 40, 59);
 }
