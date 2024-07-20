@@ -32,3 +32,15 @@
 .vh-50{
     height: 50vh;
 }
+
+.bg-danger-50{
+    background: rgba(255, 0, 0, 0.50);
+}
+
+.bg-dark-50{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-info-50{
+    background: rgba(0, 179, 255, 0.5);
+}
