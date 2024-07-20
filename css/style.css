@@ -28,3 +28,7 @@
 .rec {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
+
+.vh-50{
+    height: 50vh;
+}
