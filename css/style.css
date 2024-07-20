@@ -44,3 +44,13 @@
 .bg-info-50{
     background: rgba(0, 179, 255, 0.5);
 }
+
+.custom-size{
+    width: 90%;
+    height: 90%;
+    transition: 2s all;
+}
+
+.custom-hover:hover .custom-size{
+    transform: translateY(95%);
+}
