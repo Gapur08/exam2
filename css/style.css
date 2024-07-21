@@ -28,3 +28,60 @@
 .rec {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
+
+.bir {
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.iki {
+    background-image: url("../img/services-bg.jpg");
+}
+
+.iki_1 {
+    background-image: linear-gradient(to right, rgba(253, 126, 20, 0.80), rgba(248, 107, 38, 0.80), rgba(241, 88, 50, 0.80), rgba(232, 70, 61, 0.80), rgba(220, 53, 69, 0.80));
+}
+
+.forest {
+    background-image: url("../img/services-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-color {
+    background-color: rgb(35, 40, 59);
+}
+
+.rec {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.vh-50{
+    height: 50vh;
+}
+
+.bg-danger-50{
+    background: rgba(255, 0, 0, 0.50);
+}
+
+.bg-dark-50{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bg-info-50{
+    background: rgba(0, 179, 255, 0.5);
+}
+
+.custom-size{
+    width: 90%;
+    height: 90%;
+    transition: 2s all;
+}
+
+.custom-hover:hover .custom-size{
+    transform: translateY(95%);
+}
