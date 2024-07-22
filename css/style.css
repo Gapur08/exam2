@@ -29,6 +29,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
+<<<<<<< HEAD
 .bir {
     background-image: url("../img/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -60,6 +61,8 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
 
+=======
+>>>>>>> 09ac6118a1015fa64fa8e17528b14105a603d49f
 .vh-50{
     height: 50vh;
 }
